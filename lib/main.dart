@@ -65,16 +65,16 @@ class _MyHomePageState extends State<MyHomePage> {
     );
     return MaterialApp(
         home: Scaffold(
-      backgroundColor: const Color.fromARGB(255, 21, 38, 66),
+      backgroundColor: Color.fromARGB(255, 26, 40, 64),
       body: Center(
         child: Column(
           children: [
             const Padding(
               padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
               child: Text(
-                'LUMOS LEATHERS',
+                '',
                 style: TextStyle(
-                    color: Color.fromARGB(255, 21, 38, 66),
+                    color: Color.fromARGB(255, 255, 255, 255),
                     fontWeight: FontWeight.w900,
                     fontSize: 20),
               ),
@@ -99,11 +99,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             _button(
               "Facebook",
-              'https://instagram.com/lumosleathers?igshid=OGQ5ZDc2ODk2ZA==',
+              'https://facebook.com',
             ),
             _button(
-              "Website",
-              'https://instagram.com/lumosleathers?igshid=OGQ5ZDc2ODk2ZA==',
+              "Tiktok",
+              'https://www.tiktok.com/@lumos.leathers?_t=8i7ZfClB6Gn&_r=1',
             ),
             _button(
               "Phone Number",
