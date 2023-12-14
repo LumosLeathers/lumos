@@ -38,6 +38,22 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
+  Future<void> _openWhatsAppDirectMessage(
+      String phoneNumber, String message) async {
+    // Encode the phone number and message
+    String encodedMessage = Uri.encodeComponent(message);
+    String whatsappUrl = 'https://wa.me/$phoneNumber?text=$encodedMessage';
+
+    // Check if the URL can be launched
+    if (await canLaunch(whatsappUrl)) {
+      // Launch the URL
+      await launch(whatsappUrl);
+    } else {
+      // Handle the case where the URL can't be launched
+      print('Could not launch $whatsappUrl');
+    }
+  }
+
   Widget _button(String title, String url) {
     return SizedBox(
       width: double.infinity,
@@ -99,15 +115,15 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             _button(
               "Facebook",
-              'https://facebook.com',
+              'https://www.facebook.com/profile.php?id=61553848812808&mibextid=ZbWKwL',
             ),
             _button(
               "Tiktok",
               'https://www.tiktok.com/@lumos.leathers?_t=8i7ZfClB6Gn&_r=1',
             ),
             _button(
-              "Phone Number",
-              'tel:+96176509452',
+              "Whatsapp Chat",
+              'https://wa.me/+96178854199?text=Hello',
             ),
           ],
         ),
