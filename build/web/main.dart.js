@@ -53215,7 +53215,7 @@ return A.U($async$nA,r)},
 ne(a,b){var s=null
 return A.TJ(new A.fR(B.wV,new A.zx(new A.Ym(this,b),s,s,s,A.aer(s,s,B.vO,s,s,s,s,s,s,s,s,s,s,s,B.te,B.u4,s,s,s,s),B.I,s,!1,s,new A.rD(a,s,B.H2,s,s),s),s),s,1/0)},
 T(a){var s=this,r=null,q=A.aL(255,26,40,64)
-return new A.mf(new A.r6(A.a0Q(new A.wM(B.fQ,B.nr,B.ns,B.hV,r,B.fz,r,A.a([B.BZ,new A.fR(B.wT,B.xt,r),s.ne("Instagram","https://instagram.com/lumosleathers?igshid=OGQ5ZDc2ODk2ZA=="),s.ne("Facebook","https://www.facebook.com/profile.php?id=61553848812808&mibextid=ZbWKwL"),s.ne("Tiktok","https://www.tiktok.com/@lumos.leathers?_t=8i7ZfClB6Gn&_r=1"),s.ne("Whatsapp Chat","https://wa.me/+96178854199?text=Hello")],t.eE),r),r,r),q,r),"",r)}}
+return new A.mf(new A.r6(A.a0Q(new A.wM(B.fQ,B.nr,B.ns,B.hV,r,B.fz,r,A.a([B.BZ,new A.fR(B.wT,B.xt,r),s.ne("Instagram","https://instagram.com/lumosleathers?igshid=OGQ5ZDc2ODk2ZA=="),s.ne("Facebook","https://www.facebook.com/profile.php?id=61553848812808&mibextid=ZbWKwL"),s.ne("Tiktok","https://www.tiktok.com/@lumos.leathers?_t=8i7ZfClB6Gn&_r=1"),s.ne("Whatsapp Chat","https://wa.me/+96171988566?text=")],t.eE),r),r,r),q,r),"",r)}}
 A.Ym.prototype={
 $0(){var s=0,r=A.V(t.H),q,p=this
 var $async$$0=A.W(function(a,b){if(a===1)return A.S(b,r)

@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             _button(
               "Whatsapp Chat",
-              'https://wa.me/+96178854199?text=Hello',
+              'https://wa.me/+96171988566?text=',
             ),
           ],
         ),
